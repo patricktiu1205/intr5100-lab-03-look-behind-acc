@@ -1,0 +1,53 @@
+{
+  "cases": [
+    {
+      "case": "refine_sine_004",
+      "previous": false,
+      "metric": "sine_fit_tail_gain",
+      "coarse": 0.6325570423012548,
+      "fine": 0.6576412262270702,
+      "relative_change": 0.038142657311380904
+    },
+    {
+      "case": "refine_sine_004",
+      "previous": true,
+      "metric": "sine_fit_tail_gain",
+      "coarse": 0.8776481050991403,
+      "fine": 0.8748996067337519,
+      "relative_change": 0.0031415014296889416
+    },
+    {
+      "case": "refine_delayed_032",
+      "previous": false,
+      "metric": "sine_fit_tail_gain",
+      "coarse": 0.8754603510980119,
+      "fine": 0.8749797575636005,
+      "relative_change": 0.000549262460367833
+    },
+    {
+      "case": "refine_delayed_032",
+      "previous": true,
+      "metric": "sine_fit_tail_gain",
+      "coarse": 0.8940518997742465,
+      "fine": 0.892088601573938,
+      "relative_change": 0.0022007883486512324
+    },
+    {
+      "case": "refine_front_loss",
+      "previous": false,
+      "metric": "tail_leader_sd_ratio",
+      "coarse": 1.0712992347098802,
+      "fine": 1.0764373377426544,
+      "relative_change": 0.00477324861617031
+    },
+    {
+      "case": "refine_front_loss",
+      "previous": true,
+      "metric": "tail_leader_sd_ratio",
+      "coarse": 1.074246800703926,
+      "fine": 1.0783760530320488,
+      "relative_change": 0.003829139488504525
+    }
+  ],
+  "maximum_relative_change": 0.038142657311380904
+}

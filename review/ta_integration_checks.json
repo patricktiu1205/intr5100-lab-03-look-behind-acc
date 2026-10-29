@@ -1,0 +1,11 @@
+{
+  "active_cycles": 35,
+  "command_rows": 76,
+  "rear_bypass_checked": true,
+  "front_bypass_checked": true,
+  "spacing_stop_checked": true,
+  "callback_exception_fallbacks": 0,
+  "maximum_complete_gui_cycle_ms": 116.96683300397126,
+  "synthetic_only": true,
+  "network_forbidden": true
+}

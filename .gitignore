@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+.conda/
+.pytest_cache/
+.matplotlib/
+MPLCONFIGDIR/
+environment/runs/
+*.log

@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-29",
+  "controller_sha256": "6807c1edd6c270a0352b9176ed0838c285bca3b68443f6dac080cd669c2a5615",
+  "unit_tests_passed": 16,
+  "actual_ta_gui_active_cycles_passed": 35,
+  "frozen_gain_candidates": 60,
+  "development_cases_per_candidate": 6,
+  "held_out_paired_cases": 20,
+  "held_out_nonlinear_runs": 40,
+  "local_unquantized_models": 8,
+  "supporting_files_and_git_metadata_unchanged": true,
+  "protected_file_count": 1014,
+  "physical_tests_performed": false,
+  "baseline": "rear weight0; identical front gains/targets/inputs/initial states/shields",
+  "limitations": [
+    "No full string-stability guarantee: sampled local peak1.032>1",
+    "Front-gap tracking error increases",
+    "Delayed sinusoid is worse than front-only baseline",
+    "Both designs produce rear overlap in prolonged rear-telemetry-freeze stress case",
+    "Independent scale errors can trigger rear shield or loss of formation"
+  ],
+  "evidence_sha256": {
+    "Design Notes.md": "baa8bfd11e9aa862636b27683e597776d90696078359377d10cea292f206bf5c",
+    "Disturbance Comparison.md": "cee63861ad8bec7498278f48cbcac734f2a7e391aa045f39c05438a3663eacff",
+    "Lab 03 Guidelines.pdf": "a71544f684e64b6594e8f014e1e4adaed8bbe42c58f9e5495f5b6f93c34fd518",
+    "README.md": "679a011f91b0cc9353d32e5f29b0360f57fec4c79b35c68a80b216fc6cf8e69a",
+    "results/Disturbance Comparison.png": "c19eff94825d08348af7e972485ca5c26969142d774d2b270fa76e60c703bab6",
+    "results/held_sine_004_front_only.csv": "d4008cf781038ede4146a6907e4acf1253429d63e639ab47154b822556949578",
+    "results/held_sine_004_look_behind.csv": "945b510c2a67b1dca284194c7b618d60c687deca2e0e9cf8cab8fc8463fc81da",
+    "review/disturbance_comparison.json": "3e88e9904f40c59629383aa5b8c584be54d9c56b1f450373638f9774e2a89645",
+    "review/gain_selection.json": "9874673777d5b87b0c94005e17e383369469cf5233c8e41f347ba26d6cb7e11e",
+    "review/linear_response.json": "ef75278d8665573595355b8492a913ff6db8f4cec5d90e9e36464234301dca4c",
+    "review/numerical_refinement.json": "03b900b17a6b474da0645ff6f1faec4038ba649a85d4df5590427450d2727dee",
+    "review/ta_integration_checks.json": "3f0d54cd53494f410e95d92493a40bf9d0e101f069eb90c398c3c93c3524fd38",
+    "student_controller3.py": "6807c1edd6c270a0352b9176ed0838c285bca3b68443f6dac080cd669c2a5615",
+    "tests/build_comparison.py": "054f50171935314d2d6bba20d1be4065d74ec8ade0d9ad9ab3bba97d46089e18",
+    "tests/check_linear_response.py": "e503a21de1cf12dc15e3988f1c8c4a79cd541634a5bf282d3719a8fe6431dcd9",
+    "tests/check_ta_integration.py": "50fee69f4f78d1e82645a2f93a08852b0a3ac21313f9d4eb9acb071c08b50189",
+    "tests/compare_disturbance.py": "d5f148714a10b82371e5b33a2c771be396dc7b429a5882762c6b9e704821a53f",
+    "tests/simulate_scenarios.py": "851c04d777f9ee5c0ece81e4d30accabf55d55d9e912855b1310522c5a0467da",
+    "tests/test_controller.py": "89bc5da49025beab062d7a14e3f4c96c85f3144ef2feaa4431dc091dc7ad7324"
+  }
+}

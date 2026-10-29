@@ -1,0 +1,8 @@
+* text=auto eol=lf
+environment/** -text
+archive/** -text
+review/** -text
+*.csv -text
+*.pdf -text
+*.png -text
+*.docx -text

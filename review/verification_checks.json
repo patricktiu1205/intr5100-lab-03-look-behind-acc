@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-29",
+  "status": "Frozen tested lab candidate; no further tuning requested",
+  "controller_sha256": "07bd57acbc7c0f7dcbfe81c1b2b2cf2c824db5e04092f9862f3e98b5282c59c9",
+  "unit_tests_passed": 27,
+  "ta_gui_active_cycles_passed": 35,
+  "regression_cases": 20,
+  "new_validation_cases": 25,
+  "configurations_per_case": 4,
+  "physical_experiments_performed": false,
+  "support_files_and_both_git_repositories_unchanged_including_metadata": true,
+  "protected_file_count": 1015,
+  "remaining_improvements": "Report Discussion Notes.md",
+  "frozen_parameters": {
+    "k_gap": 0.15,
+    "k_closing": 0.5,
+    "k_rear_gap": 0.35,
+    "k_rear_velocity": 1.5,
+    "reference_tau": 6.0,
+    "rear_washout_tau": 60.0
+  }
+}

@@ -1,0 +1,1375 @@
+{
+  "label": "Held-out nonlinear synthetic benchmark; no physical validation or string-stability proof",
+  "parameters_frozen_before_evaluation": {
+    "k_rear_gap": 0.2,
+    "k_rear_velocity": 1.0,
+    "reference_tau": 6.0
+  },
+  "cases": [
+    {
+      "case_configuration": {
+        "name": "held_sine_0.015",
+        "frequency_hz": 0.015
+      },
+      "front_only": {
+        "case": "held_sine_0.015",
+        "rear_enabled": false,
+        "frequency_hz": 0.015,
+        "minimum_front_gap": 489.8378091637351,
+        "minimum_rear_gap": 278.5403405770012,
+        "maximum_front_gap": 514.1532969142027,
+        "maximum_rear_gap": 365.6816452389048,
+        "front_rmse": 9.24164209369436,
+        "mean_speeds": [
+          112.001330973243,
+          112.00054742594223,
+          112.00000000000085
+        ],
+        "tail_leader_sd_ratio": 1.1719735395827122,
+        "student_leader_sd_ratio": 0.9372720596572739,
+        "simulated_student_acceleration_rms": 1.7582967445208995,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          36,
+          44
+        ],
+        "finite": true,
+        "duration_s": 346.6666666666667,
+        "warmup_s": 80,
+        "plant_dt_s": 0.05,
+        "sine_fit_tail_gain": 1.1345298911742039,
+        "sine_fit_student_gain": 0.9351074838172712,
+        "unexplained_tail_rms": 2.3288652137854595
+      },
+      "look_behind": {
+        "case": "held_sine_0.015",
+        "rear_enabled": true,
+        "frequency_hz": 0.015,
+        "minimum_front_gap": 466.8987574764251,
+        "minimum_rear_gap": 284.1552546297153,
+        "maximum_front_gap": 554.7011913944516,
+        "maximum_rear_gap": 358.30274333795387,
+        "front_rmse": 27.449751340480788,
+        "mean_speeds": [
+          112.001330973243,
+          111.99685039159225,
+          111.99683921830622
+        ],
+        "tail_leader_sd_ratio": 0.8997878691544587,
+        "student_leader_sd_ratio": 0.7207271316761643,
+        "simulated_student_acceleration_rms": 1.4181954494011977,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          37,
+          43
+        ],
+        "finite": true,
+        "duration_s": 346.6666666666667,
+        "warmup_s": 80,
+        "plant_dt_s": 0.05,
+        "sine_fit_tail_gain": 0.8816572037128684,
+        "sine_fit_student_gain": 0.7071194876990877,
+        "unexplained_tail_rms": 1.4260254428913839
+      }
+    },
+    {
+      "case_configuration": {
+        "name": "held_sine_0.04",
+        "frequency_hz": 0.04
+      },
+      "front_only": {
+        "case": "held_sine_0.04",
+        "rear_enabled": false,
+        "frequency_hz": 0.04,
+        "minimum_front_gap": 494.83163088141737,
+        "minimum_rear_gap": 247.34646735934803,
+        "maximum_front_gap": 509.7250736343967,
+        "maximum_rear_gap": 413.5365318996119,
+        "front_rmse": 9.76877696281848,
+        "mean_speeds": [
+          112.00532325486385,
+          112.0091804498479,
+          112.00362959339198
+        ],
+        "tail_leader_sd_ratio": 2.0309435948281127,
+        "student_leader_sd_ratio": 0.8998848107433697,
+        "simulated_student_acceleration_rms": 2.5536851973412698,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          36,
+          44
+        ],
+        "finite": true,
+        "duration_s": 180.0,
+        "warmup_s": 80,
+        "plant_dt_s": 0.05,
+        "sine_fit_tail_gain": 2.0163192999580835,
+        "sine_fit_student_gain": 0.8988206564823017,
+        "unexplained_tail_rms": 1.9859886794754609
+      },
+      "look_behind": {
+        "case": "held_sine_0.04",
+        "rear_enabled": true,
+        "frequency_hz": 0.04,
+        "minimum_front_gap": 483.46118152831514,
+        "minimum_rear_gap": 272.98484847356303,
+        "maximum_front_gap": 539.3589118837699,
+        "maximum_rear_gap": 367.89319183782936,
+        "front_rmse": 25.757195080531837,
+        "mean_speeds": [
+          112.00532325486385,
+          111.97901049160431,
+          111.97819080072804
+        ],
+        "tail_leader_sd_ratio": 0.889202325928485,
+        "student_leader_sd_ratio": 0.4639205794316016,
+        "simulated_student_acceleration_rms": 1.7115075998018592,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          37,
+          44
+        ],
+        "finite": true,
+        "duration_s": 180.0,
+        "warmup_s": 80,
+        "plant_dt_s": 0.05,
+        "sine_fit_tail_gain": 0.8776481050991403,
+        "sine_fit_student_gain": 0.44993886546156864,
+        "unexplained_tail_rms": 1.1508749879684461
+      }
+    },
+    {
+      "case_configuration": {
+        "name": "held_sine_0.1",
+        "frequency_hz": 0.1
+      },
+      "front_only": {
+        "case": "held_sine_0.1",
+        "rear_enabled": false,
+        "frequency_hz": 0.1,
+        "minimum_front_gap": 496.75241921752786,
+        "minimum_rear_gap": 315.28165082560554,
+        "maximum_front_gap": 507.29944795548727,
+        "maximum_rear_gap": 349.10853642683105,
+        "front_rmse": 9.63215045414709,
+        "mean_speeds": [
+          111.99999999999999,
+          112.00799536132483,
+          112.0
+        ],
+        "tail_leader_sd_ratio": 0.0,
+        "student_leader_sd_ratio": 0.889599191183189,
+        "simulated_student_acceleration_rms": 4.7799553065795966,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          36,
+          44
+        ],
+        "finite": true,
+        "duration_s": 120.0,
+        "warmup_s": 80,
+        "plant_dt_s": 0.05,
+        "sine_fit_tail_gain": 1.5618914536282292e-15,
+        "sine_fit_student_gain": 0.888755125071833,
+        "unexplained_tail_rms": 2.702969485367079e-13
+      },
+      "look_behind": {
+        "case": "held_sine_0.1",
+        "rear_enabled": true,
+        "frequency_hz": 0.1,
+        "minimum_front_gap": 501.60000000000036,
+        "minimum_rear_gap": 303.36573568154563,
+        "maximum_front_gap": 518.144082146975,
+        "maximum_rear_gap": 348.07666609254284,
+        "front_rmse": 16.234050654990046,
+        "mean_speeds": [
+          111.99999999999999,
+          111.99378564999719,
+          112.0
+        ],
+        "tail_leader_sd_ratio": 0.0,
+        "student_leader_sd_ratio": 0.9971324832479769,
+        "simulated_student_acceleration_rms": 5.210118363013608,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          35,
+          44
+        ],
+        "finite": true,
+        "duration_s": 120.0,
+        "warmup_s": 80,
+        "plant_dt_s": 0.05,
+        "sine_fit_tail_gain": 1.5618914536282292e-15,
+        "sine_fit_student_gain": 0.9967738484496261,
+        "unexplained_tail_rms": 2.702969485367079e-13
+      }
+    },
+    {
+      "case_configuration": {
+        "name": "held_sine_0.22",
+        "frequency_hz": 0.22
+      },
+      "front_only": {
+        "case": "held_sine_0.22",
+        "rear_enabled": false,
+        "frequency_hz": 0.22,
+        "minimum_front_gap": 496.8645136461164,
+        "minimum_rear_gap": 315.28165082560554,
+        "maximum_front_gap": 506.4766945387273,
+        "maximum_rear_gap": 331.1863755786617,
+        "front_rmse": 9.16541992137563,
+        "mean_speeds": [
+          111.97498608898981,
+          112.03267335119443,
+          112.0
+        ],
+        "tail_leader_sd_ratio": 0.0,
+        "student_leader_sd_ratio": 0.8394057906950271,
+        "simulated_student_acceleration_rms": 9.411603414221114,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          36,
+          44
+        ],
+        "finite": true,
+        "duration_s": 98.18181818181819,
+        "warmup_s": 80,
+        "plant_dt_s": 0.05,
+        "sine_fit_tail_gain": 5.269808446435172e-16,
+        "sine_fit_student_gain": 0.8400870194219123,
+        "unexplained_tail_rms": 2.842170943040401e-14
+      },
+      "look_behind": {
+        "case": "held_sine_0.22",
+        "rear_enabled": true,
+        "frequency_hz": 0.22,
+        "minimum_front_gap": 497.6242892875207,
+        "minimum_rear_gap": 310.4366075591024,
+        "maximum_front_gap": 511.7407411252352,
+        "maximum_rear_gap": 330.05816506459814,
+        "front_rmse": 10.910956231315955,
+        "mean_speeds": [
+          111.97498608898981,
+          112.0152431564187,
+          112.0
+        ],
+        "tail_leader_sd_ratio": 0.0,
+        "student_leader_sd_ratio": 0.872499282582942,
+        "simulated_student_acceleration_rms": 9.712646776817436,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          36,
+          44
+        ],
+        "finite": true,
+        "duration_s": 98.18181818181819,
+        "warmup_s": 80,
+        "plant_dt_s": 0.05,
+        "sine_fit_tail_gain": 5.269808446435172e-16,
+        "sine_fit_student_gain": 0.8732728936216005,
+        "unexplained_tail_rms": 2.842170943040401e-14
+      }
+    },
+    {
+      "case_configuration": {
+        "name": "held_delayed_sine",
+        "frequency_hz": 0.06,
+        "delay": 0.3
+      },
+      "front_only": {
+        "case": "held_delayed_sine",
+        "rear_enabled": false,
+        "frequency_hz": 0.06,
+        "minimum_front_gap": 494.1067149716473,
+        "minimum_rear_gap": 272.6191785485262,
+        "maximum_front_gap": 510.0066160104998,
+        "maximum_rear_gap": 376.6734872834131,
+        "front_rmse": 8.164020123886178,
+        "mean_speeds": [
+          111.99467129379335,
+          111.99026061443729,
+          111.9979013443248
+        ],
+        "tail_leader_sd_ratio": 0.30874830451567564,
+        "student_leader_sd_ratio": 0.9223341551072545,
+        "simulated_student_acceleration_rms": 3.2364604795049865,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          36,
+          44
+        ],
+        "finite": true,
+        "duration_s": 146.66666666666669,
+        "warmup_s": 80,
+        "plant_dt_s": 0.05,
+        "sine_fit_tail_gain": 0.3009850628985087,
+        "sine_fit_student_gain": 0.9209639433542693,
+        "unexplained_tail_rms": 0.5452806985947791
+      },
+      "look_behind": {
+        "case": "held_delayed_sine",
+        "rear_enabled": true,
+        "frequency_hz": 0.06,
+        "minimum_front_gap": 495.1906409441963,
+        "minimum_rear_gap": 259.085263390969,
+        "maximum_front_gap": 531.2146008883501,
+        "maximum_rear_gap": 383.65137985892216,
+        "front_rmse": 30.48780281504798,
+        "mean_speeds": [
+          111.99467129379335,
+          111.95761818197403,
+          111.98313756473718
+        ],
+        "tail_leader_sd_ratio": 0.8115763374338819,
+        "student_leader_sd_ratio": 1.2824545284039384,
+        "simulated_student_acceleration_rms": 4.158865912262999,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          35,
+          45
+        ],
+        "finite": true,
+        "duration_s": 146.66666666666669,
+        "warmup_s": 80,
+        "plant_dt_s": 0.05,
+        "sine_fit_tail_gain": 0.8079117813765458,
+        "sine_fit_student_gain": 1.2815995729767862,
+        "unexplained_tail_rms": 0.6318771102077317
+      }
+    },
+    {
+      "case_configuration": {
+        "name": "held_small_amplitude",
+        "frequency_hz": 0.05,
+        "amplitude": 2
+      },
+      "front_only": {
+        "case": "held_small_amplitude",
+        "rear_enabled": false,
+        "frequency_hz": 0.05,
+        "minimum_front_gap": 499.35930721392833,
+        "minimum_rear_gap": 289.69186368551163,
+        "maximum_front_gap": 504.4985119365556,
+        "maximum_rear_gap": 349.28331382861325,
+        "front_rmse": 5.754503105668442,
+        "mean_speeds": [
+          111.99999999999996,
+          111.99494856152546,
+          112.00172227265453
+        ],
+        "tail_leader_sd_ratio": 0.003970004423553961,
+        "student_leader_sd_ratio": 0.9517749626547363,
+        "simulated_student_acceleration_rms": 1.9244738820508211,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          38,
+          42
+        ],
+        "finite": true,
+        "duration_s": 160.0,
+        "warmup_s": 80,
+        "plant_dt_s": 0.05,
+        "sine_fit_tail_gain": 0.0006076349775371416,
+        "sine_fit_student_gain": 0.9457059474706928,
+        "unexplained_tail_rms": 0.015530108129547214
+      },
+      "look_behind": {
+        "case": "held_small_amplitude",
+        "rear_enabled": true,
+        "frequency_hz": 0.05,
+        "minimum_front_gap": 501.60000000000036,
+        "minimum_rear_gap": 301.9199820930862,
+        "maximum_front_gap": 515.1075905404177,
+        "maximum_rear_gap": 345.0602621534963,
+        "front_rmse": 14.315775885558915,
+        "mean_speeds": [
+          111.99999999999996,
+          112.00499994522391,
+          112.0
+        ],
+        "tail_leader_sd_ratio": 0.0,
+        "student_leader_sd_ratio": 1.068400803303057,
+        "simulated_student_acceleration_rms": 1.867696960417287,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          38,
+          42
+        ],
+        "finite": true,
+        "duration_s": 160.0,
+        "warmup_s": 80,
+        "plant_dt_s": 0.05,
+        "sine_fit_tail_gain": 2.7025617599548333e-15,
+        "sine_fit_student_gain": 1.0649178177405898,
+        "unexplained_tail_rms": 3.412721827075127e-13
+      }
+    },
+    {
+      "case_configuration": {
+        "name": "held_pulse"
+      },
+      "front_only": {
+        "case": "held_pulse",
+        "rear_enabled": false,
+        "frequency_hz": null,
+        "minimum_front_gap": 422.9803867278424,
+        "minimum_rear_gap": 191.22336696210004,
+        "maximum_front_gap": 501.60000000000036,
+        "maximum_rear_gap": 399.9452780364736,
+        "front_rmse": 24.23174388713222,
+        "mean_speeds": [
+          98.83127572016461,
+          98.99259259259257,
+          98.60246913580248
+        ],
+        "tail_leader_sd_ratio": 1.103646670405281,
+        "student_leader_sd_ratio": 0.9359173387023623,
+        "simulated_student_acceleration_rms": 3.63748111345612,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          20,
+          40
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      },
+      "look_behind": {
+        "case": "held_pulse",
+        "rear_enabled": true,
+        "frequency_hz": null,
+        "minimum_front_gap": 349.1554533798999,
+        "minimum_rear_gap": 204.79042243601543,
+        "maximum_front_gap": 577.3307678531892,
+        "maximum_rear_gap": 423.4216621199812,
+        "front_rmse": 42.15443766763919,
+        "mean_speeds": [
+          98.83127572016461,
+          98.91851763140731,
+          99.04691358023365
+        ],
+        "tail_leader_sd_ratio": 1.047410411010077,
+        "student_leader_sd_ratio": 0.9269856390156519,
+        "simulated_student_acceleration_rms": 3.976640449531205,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          18,
+          41
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      }
+    },
+    {
+      "case_configuration": {
+        "name": "held_stop",
+        "stop": true
+      },
+      "front_only": {
+        "case": "held_stop",
+        "rear_enabled": false,
+        "frequency_hz": null,
+        "minimum_front_gap": 389.9439390766438,
+        "minimum_rear_gap": 113.57843358810533,
+        "maximum_front_gap": 501.60000000000036,
+        "maximum_rear_gap": 768.4749752748594,
+        "front_rmse": 38.00626972490199,
+        "mean_speeds": [
+          96.19753086419753,
+          96.36049382716054,
+          96.24197530864214
+        ],
+        "tail_leader_sd_ratio": 1.2838441961777673,
+        "student_leader_sd_ratio": 0.9265873467919138,
+        "simulated_student_acceleration_rms": 6.677819931932246,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          2,
+          40
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      },
+      "look_behind": {
+        "case": "held_stop",
+        "rear_enabled": true,
+        "frequency_hz": null,
+        "minimum_front_gap": 276.62262045591615,
+        "minimum_rear_gap": 131.90847355191727,
+        "maximum_front_gap": 630.551276449527,
+        "maximum_rear_gap": 560.6640324476539,
+        "front_rmse": 71.21860564933166,
+        "mean_speeds": [
+          96.19753086419753,
+          95.44197530864193,
+          95.06666666666669
+        ],
+        "tail_leader_sd_ratio": 1.0871660887148937,
+        "student_leader_sd_ratio": 0.8440663067635438,
+        "simulated_student_acceleration_rms": 5.855444808398757,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          6,
+          44
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      }
+    },
+    {
+      "case_configuration": {
+        "name": "held_tight_rear",
+        "rear_gap": 180
+      },
+      "front_only": {
+        "case": "held_tight_rear",
+        "rear_enabled": false,
+        "frequency_hz": null,
+        "minimum_front_gap": 422.9803867278424,
+        "minimum_rear_gap": 162.24511291629187,
+        "maximum_front_gap": 501.60000000000036,
+        "maximum_rear_gap": 448.8784613370526,
+        "front_rmse": 24.23174388713222,
+        "mean_speeds": [
+          98.83127572016461,
+          98.99259259259257,
+          99.62232322153343
+        ],
+        "tail_leader_sd_ratio": 1.1980859575633684,
+        "student_leader_sd_ratio": 0.9359173387023623,
+        "simulated_student_acceleration_rms": 3.63748111345612,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          20,
+          40
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      },
+      "look_behind": {
+        "case": "held_tight_rear",
+        "rear_enabled": true,
+        "frequency_hz": null,
+        "minimum_front_gap": 363.0919398160486,
+        "minimum_rear_gap": 180.0,
+        "maximum_front_gap": 580.690767907965,
+        "maximum_rear_gap": 430.6506878055761,
+        "front_rmse": 44.63465976699785,
+        "mean_speeds": [
+          98.83127572016461,
+          98.1836298016792,
+          99.13820152068986
+        ],
+        "tail_leader_sd_ratio": 1.0483910373243115,
+        "student_leader_sd_ratio": 0.9296771085539123,
+        "simulated_student_acceleration_rms": 4.176428009582007,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          18,
+          47
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      }
+    },
+    {
+      "case_configuration": {
+        "name": "held_small_front_gap",
+        "front_gap": 250
+      },
+      "front_only": {
+        "case": "held_small_front_gap",
+        "rear_enabled": false,
+        "frequency_hz": null,
+        "minimum_front_gap": 250.0,
+        "minimum_rear_gap": 198.1215798913745,
+        "maximum_front_gap": 487.86000000040985,
+        "maximum_rear_gap": 398.4317744983473,
+        "front_rmse": 44.34390351145827,
+        "mean_speeds": [
+          98.83127572016461,
+          96.83359046101872,
+          95.84791780396209
+        ],
+        "tail_leader_sd_ratio": 1.1129758239288365,
+        "student_leader_sd_ratio": 0.9856196339966533,
+        "simulated_student_acceleration_rms": 3.6515941046770894,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          19,
+          40
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      },
+      "look_behind": {
+        "case": "held_small_front_gap",
+        "rear_enabled": true,
+        "frequency_hz": null,
+        "minimum_front_gap": 250.0,
+        "minimum_rear_gap": 202.73863217466987,
+        "maximum_front_gap": 561.3509764522623,
+        "maximum_rear_gap": 424.16780822320834,
+        "front_rmse": 73.28550625495204,
+        "mean_speeds": [
+          98.83127572016461,
+          96.64466718778542,
+          96.25710146368887
+        ],
+        "tail_leader_sd_ratio": 1.1073093884354175,
+        "student_leader_sd_ratio": 1.0065683427945231,
+        "simulated_student_acceleration_rms": 4.008630739325862,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          17,
+          41
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      }
+    },
+    {
+      "case_configuration": {
+        "name": "held_large_front_gap",
+        "front_gap": 800
+      },
+      "front_only": {
+        "case": "held_large_front_gap",
+        "rear_enabled": false,
+        "frequency_hz": null,
+        "minimum_front_gap": 460.2685900552924,
+        "minimum_rear_gap": 176.45387848490554,
+        "maximum_front_gap": 800.0,
+        "maximum_rear_gap": 388.74836140435036,
+        "front_rmse": 68.67587925050907,
+        "mean_speeds": [
+          98.83127572016461,
+          101.62975557901024,
+          102.0247487541867
+        ],
+        "tail_leader_sd_ratio": 1.1220213426738177,
+        "student_leader_sd_ratio": 0.8937885491802786,
+        "simulated_student_acceleration_rms": 3.757694157619942,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          21,
+          48
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      },
+      "look_behind": {
+        "case": "held_large_front_gap",
+        "rear_enabled": true,
+        "frequency_hz": null,
+        "minimum_front_gap": 465.53901814465553,
+        "minimum_rear_gap": 203.25514207462675,
+        "maximum_front_gap": 800.0,
+        "maximum_rear_gap": 414.9462273307081,
+        "front_rmse": 103.61859136992017,
+        "mean_speeds": [
+          98.83127572016461,
+          101.6468565077137,
+          102.46761650866269
+        ],
+        "tail_leader_sd_ratio": 0.9797989271243369,
+        "student_leader_sd_ratio": 0.8541146123585949,
+        "simulated_student_acceleration_rms": 4.10741405463492,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          20,
+          48
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      }
+    },
+    {
+      "case_configuration": {
+        "name": "held_fast_plant",
+        "lag": 0.25
+      },
+      "front_only": {
+        "case": "held_fast_plant",
+        "rear_enabled": false,
+        "frequency_hz": null,
+        "minimum_front_gap": 426.028072576084,
+        "minimum_rear_gap": 222.48852080615325,
+        "maximum_front_gap": 501.60000000000036,
+        "maximum_rear_gap": 408.3276717181079,
+        "front_rmse": 27.162302864283983,
+        "mean_speeds": [
+          98.83127572016461,
+          98.9925925925926,
+          98.63209876543176
+        ],
+        "tail_leader_sd_ratio": 1.0578482521880141,
+        "student_leader_sd_ratio": 0.9287156701810386,
+        "simulated_student_acceleration_rms": 4.317205706941118,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          20,
+          40
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      },
+      "look_behind": {
+        "case": "held_fast_plant",
+        "rear_enabled": true,
+        "frequency_hz": null,
+        "minimum_front_gap": 366.64000000347187,
+        "minimum_rear_gap": 234.99636363090303,
+        "maximum_front_gap": 540.8000000002448,
+        "maximum_rear_gap": 379.14619390351163,
+        "front_rmse": 37.07318570109334,
+        "mean_speeds": [
+          98.83127572016461,
+          98.37037037037035,
+          98.09876543209865
+        ],
+        "tail_leader_sd_ratio": 0.9547348270689814,
+        "student_leader_sd_ratio": 0.8881470840038993,
+        "simulated_student_acceleration_rms": 4.201399334793759,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          19,
+          40
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      }
+    },
+    {
+      "case_configuration": {
+        "name": "held_slow_plant",
+        "lag": 1.0
+      },
+      "front_only": {
+        "case": "held_slow_plant",
+        "rear_enabled": false,
+        "frequency_hz": null,
+        "minimum_front_gap": 416.9935183983207,
+        "minimum_rear_gap": 151.28901241855965,
+        "maximum_front_gap": 501.60000000000036,
+        "maximum_rear_gap": 613.1628810056363,
+        "front_rmse": 17.773657373408675,
+        "mean_speeds": [
+          98.83127572016461,
+          98.99259259259269,
+          99.31475249318532
+        ],
+        "tail_leader_sd_ratio": 1.46405037173471,
+        "student_leader_sd_ratio": 0.9497704543968485,
+        "simulated_student_acceleration_rms": 3.411904495125952,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          20,
+          40
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      },
+      "look_behind": {
+        "case": "held_slow_plant",
+        "rear_enabled": true,
+        "frequency_hz": null,
+        "minimum_front_gap": 325.4640703471614,
+        "minimum_rear_gap": 168.3009762805441,
+        "maximum_front_gap": 653.8168297314878,
+        "maximum_rear_gap": 475.4510638417423,
+        "front_rmse": 75.7988440774428,
+        "mean_speeds": [
+          98.83127572016461,
+          98.66886313801346,
+          98.88724279834538
+        ],
+        "tail_leader_sd_ratio": 1.1477261514269426,
+        "student_leader_sd_ratio": 0.9549957637909221,
+        "simulated_student_acceleration_rms": 3.825131458536085,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          17,
+          42
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      }
+    },
+    {
+      "case_configuration": {
+        "name": "held_gain_low",
+        "beta": 2.1
+      },
+      "front_only": {
+        "case": "held_gain_low",
+        "rear_enabled": false,
+        "frequency_hz": null,
+        "minimum_front_gap": 501.60000000000036,
+        "minimum_rear_gap": 315.28165082560554,
+        "maximum_front_gap": 861.7675000004565,
+        "maximum_rear_gap": 6704.11165082605,
+        "front_rmse": 285.46462007603725,
+        "mean_speeds": [
+          98.83127572016461,
+          95.6252728818456,
+          23.110162502072654
+        ],
+        "tail_leader_sd_ratio": 0.004265126592540574,
+        "student_leader_sd_ratio": 0.8891038086918235,
+        "simulated_student_acceleration_rms": 2.923673613961615,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          27,
+          53
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      },
+      "look_behind": {
+        "case": "held_gain_low",
+        "rear_enabled": true,
+        "frequency_hz": null,
+        "minimum_front_gap": 501.60000000000036,
+        "minimum_rear_gap": 315.28165082560554,
+        "maximum_front_gap": 1157.8675000005296,
+        "maximum_rear_gap": 6228.199150825294,
+        "front_rmse": 519.7804440611197,
+        "mean_speeds": [
+          98.83127572016461,
+          91.5696360151193,
+          25.2035410406673
+        ],
+        "tail_leader_sd_ratio": 0.0014861484511820957,
+        "student_leader_sd_ratio": 1.0661493909313555,
+        "simulated_student_acceleration_rms": 3.22889153310445,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          21,
+          53
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      }
+    },
+    {
+      "case_configuration": {
+        "name": "held_gain_high",
+        "beta": 3.5
+      },
+      "front_only": {
+        "case": "held_gain_high",
+        "rear_enabled": false,
+        "frequency_hz": null,
+        "minimum_front_gap": 291.4250000003376,
+        "minimum_rear_gap": 67.54284008761078,
+        "maximum_front_gap": 501.60000000000036,
+        "maximum_rear_gap": 560.8363225399462,
+        "front_rmse": 180.46288415449789,
+        "mean_speeds": [
+          98.83127572016461,
+          100.44913060299659,
+          100.49713242821338
+        ],
+        "tail_leader_sd_ratio": 3.933644411262733,
+        "student_leader_sd_ratio": 0.9962490622692954,
+        "simulated_student_acceleration_rms": 4.3887037949540995,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 6,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          16,
+          40
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      },
+      "look_behind": {
+        "case": "held_gain_high",
+        "rear_enabled": true,
+        "frequency_hz": null,
+        "minimum_front_gap": 230.7909193757987,
+        "minimum_rear_gap": 71.68514000565574,
+        "maximum_front_gap": 501.60000000000036,
+        "maximum_rear_gap": 554.6750518425106,
+        "front_rmse": 213.95170274440966,
+        "mean_speeds": [
+          98.83127572016461,
+          100.96449971948746,
+          96.73643508555492
+        ],
+        "tail_leader_sd_ratio": 3.7560461767888587,
+        "student_leader_sd_ratio": 1.0452592251905275,
+        "simulated_student_acceleration_rms": 6.949881134281887,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 5,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          11,
+          41
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      }
+    },
+    {
+      "case_configuration": {
+        "name": "held_scale_low",
+        "gamma": 2.1
+      },
+      "front_only": {
+        "case": "held_scale_low",
+        "rear_enabled": false,
+        "frequency_hz": null,
+        "minimum_front_gap": 235.32000000052176,
+        "minimum_rear_gap": 70.32205393483127,
+        "maximum_front_gap": 451.1999999999998,
+        "maximum_rear_gap": 483.1944044350048,
+        "front_rmse": 180.2634736939484,
+        "mean_speeds": [
+          74.12345679012346,
+          75.9605484412625,
+          73.28717844169995
+        ],
+        "tail_leader_sd_ratio": 4.306070664314697,
+        "student_leader_sd_ratio": 1.0025353345800034,
+        "simulated_student_acceleration_rms": 3.4915357853195457,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 6,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          15,
+          38
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      },
+      "look_behind": {
+        "case": "held_scale_low",
+        "rear_enabled": true,
+        "frequency_hz": null,
+        "minimum_front_gap": 196.69519810545353,
+        "minimum_rear_gap": 69.65522955635697,
+        "maximum_front_gap": 451.1999999999998,
+        "maximum_rear_gap": 480.6810986546907,
+        "front_rmse": 211.70998755994455,
+        "mean_speeds": [
+          74.12345679012346,
+          76.32710083694526,
+          75.46711728173574
+        ],
+        "tail_leader_sd_ratio": 4.277385253105258,
+        "student_leader_sd_ratio": 1.0312140020938834,
+        "simulated_student_acceleration_rms": 4.924567481739373,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 6,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          11,
+          39
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      }
+    },
+    {
+      "case_configuration": {
+        "name": "held_scale_high",
+        "gamma": 3.5
+      },
+      "front_only": {
+        "case": "held_scale_high",
+        "rear_enabled": false,
+        "frequency_hz": null,
+        "minimum_front_gap": 552.0,
+        "minimum_rear_gap": 315.28165082560554,
+        "maximum_front_gap": 767.7399999999743,
+        "maximum_rear_gap": 7368.831650825105,
+        "front_rmse": 183.2337596700332,
+        "mean_speeds": [
+          123.53909465020575,
+          121.80517485312131,
+          42.00473200617675
+        ],
+        "tail_leader_sd_ratio": 0.001588790259308137,
+        "student_leader_sd_ratio": 0.8992493385063764,
+        "simulated_student_acceleration_rms": 3.9016290896152928,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          26,
+          50
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      },
+      "look_behind": {
+        "case": "held_scale_high",
+        "rear_enabled": true,
+        "frequency_hz": null,
+        "minimum_front_gap": 552.0,
+        "minimum_rear_gap": 315.28165082560554,
+        "maximum_front_gap": 1067.619999999988,
+        "maximum_rear_gap": 7063.491650825095,
+        "front_rmse": 435.81767256543503,
+        "mean_speeds": [
+          123.53909465020575,
+          117.55502482719112,
+          42.01826754467084
+        ],
+        "tail_leader_sd_ratio": 0.0061334021872338045,
+        "student_leader_sd_ratio": 1.0281349146717718,
+        "simulated_student_acceleration_rms": 4.236174575421341,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          22,
+          53
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      }
+    },
+    {
+      "case_configuration": {
+        "name": "held_020_period_sine",
+        "frequency_hz": 0.03,
+        "control_period": 0.2
+      },
+      "front_only": {
+        "case": "held_020_period_sine",
+        "rear_enabled": false,
+        "frequency_hz": 0.03,
+        "minimum_front_gap": 493.29763493831706,
+        "minimum_rear_gap": 274.2484288915657,
+        "maximum_front_gap": 511.07614138884674,
+        "maximum_rear_gap": 358.89195622448096,
+        "front_rmse": 9.611583351970069,
+        "mean_speeds": [
+          112.00328282600151,
+          112.00154870912799,
+          111.99999999956417
+        ],
+        "tail_leader_sd_ratio": 1.3620396069484557,
+        "student_leader_sd_ratio": 0.9083013462292688,
+        "simulated_student_acceleration_rms": 2.2405370298652136,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          36,
+          44
+        ],
+        "finite": true,
+        "duration_s": 213.33333333333334,
+        "warmup_s": 80,
+        "plant_dt_s": 0.05,
+        "sine_fit_tail_gain": 1.3257333319472107,
+        "sine_fit_student_gain": 0.9068716779165272,
+        "unexplained_tail_rms": 2.462060877045913
+      },
+      "look_behind": {
+        "case": "held_020_period_sine",
+        "rear_enabled": true,
+        "frequency_hz": 0.03,
+        "minimum_front_gap": 477.37191950466513,
+        "minimum_rear_gap": 285.7866725703243,
+        "maximum_front_gap": 536.377141284207,
+        "maximum_rear_gap": 351.51016333235475,
+        "front_rmse": 20.02610920811522,
+        "mean_speeds": [
+          112.00328282600151,
+          112.00427834926295,
+          112.00000033898927
+        ],
+        "tail_leader_sd_ratio": 0.8729901048251034,
+        "student_leader_sd_ratio": 0.5394519702815788,
+        "simulated_student_acceleration_rms": 1.6872863967891816,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          37,
+          43
+        ],
+        "finite": true,
+        "duration_s": 213.33333333333334,
+        "warmup_s": 80,
+        "plant_dt_s": 0.05,
+        "sine_fit_tail_gain": 0.8581515134116465,
+        "sine_fit_student_gain": 0.5244735935660388,
+        "unexplained_tail_rms": 1.257262050267226
+      }
+    },
+    {
+      "case_configuration": {
+        "name": "held_020_period_pulse",
+        "control_period": 0.2
+      },
+      "front_only": {
+        "case": "held_020_period_pulse",
+        "rear_enabled": false,
+        "frequency_hz": null,
+        "minimum_front_gap": 422.6035679065253,
+        "minimum_rear_gap": 200.0770321006903,
+        "maximum_front_gap": 501.60000000000036,
+        "maximum_rear_gap": 404.1327606704508,
+        "front_rmse": 23.831840745978273,
+        "mean_speeds": [
+          98.83127572016461,
+          98.99588477366255,
+          98.71275720164617
+        ],
+        "tail_leader_sd_ratio": 1.0814420644941427,
+        "student_leader_sd_ratio": 0.937610352386574,
+        "simulated_student_acceleration_rms": 3.6563123322367415,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          20,
+          40
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      },
+      "look_behind": {
+        "case": "held_020_period_pulse",
+        "rear_enabled": true,
+        "frequency_hz": null,
+        "minimum_front_gap": 355.43715313003395,
+        "minimum_rear_gap": 218.1568092178959,
+        "maximum_front_gap": 560.3214494072163,
+        "maximum_rear_gap": 414.16893200304276,
+        "front_rmse": 39.74509147200984,
+        "mean_speeds": [
+          98.83127572016461,
+          98.45596707818916,
+          98.35061728395057
+        ],
+        "tail_leader_sd_ratio": 0.9996835637227544,
+        "student_leader_sd_ratio": 0.9030410834127233,
+        "simulated_student_acceleration_rms": 3.7788650255177876,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 0,
+        "emergency_calls": 0,
+        "negative_gap_samples": 0,
+        "command_range": [
+          19,
+          41
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      }
+    },
+    {
+      "case_configuration": {
+        "name": "held_rear_dropout",
+        "rear_dropout": true
+      },
+      "front_only": {
+        "case": "held_rear_dropout",
+        "rear_enabled": false,
+        "frequency_hz": null,
+        "minimum_front_gap": 422.9803867278424,
+        "minimum_rear_gap": -167.79570048282494,
+        "maximum_front_gap": 501.60000000000036,
+        "maximum_rear_gap": 815.748238580768,
+        "front_rmse": 24.23174388713222,
+        "mean_speeds": [
+          98.83127572016461,
+          98.99259259259257,
+          99.16049375726863
+        ],
+        "tail_leader_sd_ratio": 1.8923348087540397,
+        "student_leader_sd_ratio": 0.9359173387023623,
+        "simulated_student_acceleration_rms": 3.63748111345612,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 34,
+        "emergency_calls": 0,
+        "negative_gap_samples": 149,
+        "command_range": [
+          20,
+          40
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      },
+      "look_behind": {
+        "case": "held_rear_dropout",
+        "rear_enabled": true,
+        "frequency_hz": null,
+        "minimum_front_gap": 370.7393712417279,
+        "minimum_rear_gap": -166.11569150523428,
+        "maximum_front_gap": 656.829406334231,
+        "maximum_rear_gap": 720.967495588533,
+        "front_rmse": 71.45798630478006,
+        "mean_speeds": [
+          98.83127572016461,
+          98.39667740569412,
+          98.48395061728186
+        ],
+        "tail_leader_sd_ratio": 1.7254991969006903,
+        "student_leader_sd_ratio": 0.9359926136789354,
+        "simulated_student_acceleration_rms": 4.402941075721092,
+        "front_shield_calls": 0,
+        "rear_shield_calls": 33,
+        "emergency_calls": 0,
+        "negative_gap_samples": 148,
+        "command_range": [
+          20,
+          46
+        ],
+        "finite": true,
+        "duration_s": 90,
+        "warmup_s": 5,
+        "plant_dt_s": 0.05
+      }
+    }
+  ],
+  "source_sha256": "6807c1edd6c270a0352b9176ed0838c285bca3b68443f6dac080cd669c2a5615"
+}

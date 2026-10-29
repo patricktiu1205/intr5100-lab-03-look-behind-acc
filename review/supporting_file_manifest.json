@@ -1,0 +1,13 @@
+{
+  "description": "Unmodified supplied Lab III support files, copied locally for standalone verification. environment/student_controller3.py is the original commissioning template; root student_controller3.py is the submission.",
+  "sha256": {
+    "environment/6e68_map.yaml": "e1ecf823089aa84c640b64914da0f223958d91d68b29a6f740978d0556b831dc",
+    "environment/experiment_common.py": "4fe9348ca8fbbba2a10cd2518302a85c38890ad6ea6600b816d7d3c20949ab5c",
+    "environment/idm_controller.py": "e50726b235eee6f08e1d351467e6f72491cd09ab08ef32acb469ae93fcbe9422",
+    "environment/route_map_utils.py": "503c1d3efe5eeb8acc1e32f4961a515851aa487eb72ad773ad6525a700849669",
+    "environment/ta_experiment3_gui.py": "08a89bdc69670cfb624002da7e8a63ec0a93c8fb88e251fc122e5b8c1677d775",
+    "environment/three_vehicle_experiment.py": "8294750bf63cd032b4255b02907895554b81e7aa6a149ef79bf0a9400264bdbb",
+    "environment/vehicle_io.py": "b26d15daa48a32ef00a7a5488a3b8e324bac2b8936fec07cff97b11cc6d51fd1",
+    "environment/student_controller3.py": "df14728582bbce075b755f8a96fe9e35cf13af7aedd8b150b9438c10be5b2b9d"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "controller_sha256": "ef2fd50b820c7d4bd55d84fce87ad367753dce98ed5276079755e43ce00f37f6",
+  "unit_tests_passed": 12,
+  "actual_ta_gui_active_cycles_passed": 35,
+  "synthetic_cases_completed": 24,
+  "shared_environment_and_both_git_repositories_unchanged_including_metadata": true,
+  "protected_file_count": 1014,
+  "physical_experiments_performed": false,
+  "scale_constants": "GAMMA=2.8 and BETA=2.8 are independent uncalibrated hypotheses",
+  "limitations": [
+    "Nominal following/leader speed SD ratio exceeds one",
+    "Rear feedback not uniformly better than front-only ablation",
+    "Large scale mismatch produces rear gaps below 80 coordinate units"
+  ]
+}

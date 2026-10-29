@@ -1,0 +1,11 @@
+{
+  "moves": {
+    "Design Notes.md": "docs/Design Notes.md",
+    "Disturbance Comparison.md": "docs/Disturbance Comparison.md",
+    "Report Discussion Notes.md": "docs/Report Discussion Notes.md",
+    "Lab 03 Guidelines.pdf": "docs/Lab 03 Guidelines.pdf",
+    "review/archive/": "archive/"
+  },
+  "supporting_files": "Byte-identical local copies, original shared folder unchanged",
+  "controller": "Root file unchanged; only active test paths and document links updated"
+}
