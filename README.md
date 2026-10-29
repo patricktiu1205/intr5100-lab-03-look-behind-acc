@@ -59,3 +59,5 @@ For a physical matched front-only test, use a separate copy of the submission wi
 | `archive/` | Clearly identified earlier controller versions and results |
 
 There are no physical Lab III run data or completed experimental report in this repository yet. The synthetic results must not be presented as physical measurements.
+
+GitHub: [intr5100-lab-03-look-behind-acc](https://github.com/patricktiu1205/intr5100-lab-03-look-behind-acc). Publication checks are recorded in `review/publication_checks.json`.

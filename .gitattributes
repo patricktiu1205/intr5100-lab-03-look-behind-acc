@@ -6,3 +6,8 @@ review/** -text
 *.pdf -text
 *.png -text
 *.docx -text
+
+# Preserve historical/supplied formatting; CSV CRLF is original scientific data.
+archive/** -whitespace
+environment/** -whitespace
+*.csv whitespace=cr-at-eol
